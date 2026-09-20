@@ -12,7 +12,6 @@ Algorithm:
 7.	Use the display function to visualize the stack's contents
  
 Program:
-
 float stack[100];
 int size=3,top=-1,i;
 void push (float data)
@@ -51,6 +50,7 @@ void peek()
 {
        printf("%.2f ",stack[top]);
 }
+
 Output:
 
 <img width="1172" height="963" alt="image" src="https://github.com/user-attachments/assets/c9578262-b060-465e-b26a-7ece0957c2ce" />
